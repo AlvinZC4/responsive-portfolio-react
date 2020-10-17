@@ -1,0 +1,29 @@
+.navbar {
+    border-bottom-style: outset;
+    background-color: lightgoldenrodyellow;
+}
+
+.navtext {
+    background-color: firebrick;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.navbar-light:hover .navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    border-right-style: groove;
+    border-right: solid, black;
+    color: firebrick;
+}
+
+.nav-link:last-child {
+    border-right: none;
+}
