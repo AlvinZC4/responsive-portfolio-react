@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Wrapper from "./components/Wrapper/Wrapper"
 import NavBar from "./components/NavBar/NavBar"
+import AboutMe from "./pages/AboutMe"
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +11,9 @@ function App() {
     <Router>
       <div>
         <NavBar />
+        <Wrapper>
+          <Route exact path="/" component={AboutMe} />
+        </Wrapper>
       </div>
     </Router>
   );
