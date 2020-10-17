@@ -8,7 +8,7 @@ function AboutMe(props) {
     return (
         <Container>
             <Row>
-                <Col classes="contentMain col-12 all">
+                <Col classes="contentMain all">
                     <Header header="About Me"></Header>
                 </Col>
             </Row>
