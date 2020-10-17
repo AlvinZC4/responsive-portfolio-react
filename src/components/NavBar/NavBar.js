@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-function NavBar() {
+function NavBar(props) {
     return (
         <nav className="py-0 d-block d-md-flex navbar navbar-expand-mb navbar-light barall">
             <span className="navbar-brand navtext d-flex justify-content-center mb-0 ml-5 px-5 h1">Alvin Z. Cox IV</span>
