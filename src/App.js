@@ -14,7 +14,6 @@ function App() {
         <NavBar />
         <Wrapper>
           <Route exact path="/" component={AboutMe} />
-          <Route exact path="/aboutme/" component={AboutMe} />
           <Route exact path="/portfolio/" component={Portfolio} />
         </Wrapper>
       </div>
