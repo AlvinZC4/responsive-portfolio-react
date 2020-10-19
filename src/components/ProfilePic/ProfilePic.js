@@ -1,7 +1,7 @@
 import React from "react"
 // import Images from "../../assets/images"
 
-function ProfilePic(props) {
+function ProfilePic() {
     return (
         <img className="float-md-left mx-auto d-block" src="assets/images/profilepic.jpg" alt="Profile"/>
     )
