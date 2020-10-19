@@ -1,7 +1,9 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import Container from "../components/Container/Container"
 import Row from "../components/Row/Row"
 import Col from "../components/Col/Col"
+import ExtLink from "../components/ExtLink/ExtLink"
 import Header from "../components/Header/Header"
 import ProfilePic from "../components/ProfilePic/ProfilePic"
 
@@ -10,7 +12,7 @@ function AboutMe(props) {
         <Container>
             <Row classes="justify-content-center">
                 <Col classes="contentMain col-md-8 all">
-                    <Header header="About Me"></Header>
+                    <Header header="About Me"/>
                     <Row>
                         <Col>
                             <ProfilePic />
@@ -23,6 +25,22 @@ function AboutMe(props) {
 
                             <p>I am a graduate of Randolph-Macon College where I majored in Physics and minored in Mathematics and
                             Astrophysics. I also have an Associates Degree in Mechanical Engineering Technology.</p>
+                        </Col>
+                    </Row>
+                    <Header header="Additional Links"/>
+                    <Row>
+                        <Col classes="my-2 d-flex justify-content-center links">
+                            <Link className="links" to="./assets/images/AlvinResume.pdf">My Resume</Link>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col classes="my-2 d-flex justify-content-center links">
+                            <ExtLink to="https://www.linkedin.com/in/alvin-cox-275a82106/" text="My LinkedIn Profile"/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col classes="my-2 d-flex justify-content-center links">
+                            <ExtLink to="https://github.com/AlvinZC4" text="My GitHub Profile"/>
                         </Col>
                     </Row>
                 </Col>
