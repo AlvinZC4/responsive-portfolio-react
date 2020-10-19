@@ -7,8 +7,8 @@ import Header from "../components/Header/Header"
 function AboutMe(props) {
     return (
         <Container>
-            <Row>
-                <Col classes="contentMain all">
+            <Row classes="justify-content-center">
+                <Col classes="contentMain col-md-8 all">
                     <Header header="About Me"></Header>
                 </Col>
             </Row>
