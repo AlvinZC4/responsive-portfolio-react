@@ -12,7 +12,7 @@ function Project(props) {
       <Col>
         <PortHead head={props.head} />
         <Row>
-          <ColH classes="col-6">
+          <Col classes="col-lg-6">
             <Row>
                 <Col classes="d-flex justify-content-center">
                     <ProImage image={props.image} alt={props.alt} />
@@ -34,8 +34,8 @@ function Project(props) {
                     />
                 </Col>
             </Row>
-          </ColH>
-          <ColH classes="col-6 mt-2">
+          </Col>
+          <Col classes="col-lg-6 mt-2">
             <p>
               Procasti-Dater is an application that allows users to quickly set
               up a date on the fly. The application will search an area
@@ -44,7 +44,7 @@ function Project(props) {
               any events that are scheduled in the area (such as concerts or
               shows).
             </p>
-          </ColH>
+          </Col>
         </Row>
       </Col>
     </Row>
