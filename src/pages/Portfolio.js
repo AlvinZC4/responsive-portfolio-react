@@ -13,7 +13,7 @@ function Portfolio(props) {
         <Col classes="contentMain col-md-8 all">
           <Header header="Portfolio"></Header>
           <Project
-            head="Procasti-dater"
+            head="Procasti-Dater"
             image={require("../assets/images/DinnerDate.png")}
             alt="Procrasti-Dater"
             toapp={"https://alvinzc4.github.io/Dinner-And-A-Movie/"}
@@ -25,6 +25,19 @@ function Portfolio(props) {
              based on cusine and events (such as concerts or shows). This app uses 
              Integrated Google Geocode, Google Maps, Google Maps Places, & Ticketmaster 
              API’s and manipulated the DOM with JavaScript by leveraging the DOM API."
+          />
+          <Project
+            head="Employee Directory"
+            image={require("../assets/images/EmployeeDirectory.png")}
+            alt="Employee Directory"
+            toapp={"https://alvinzc4.github.io/Employee-Directory/"}
+            textapp={"Employee Directory"}
+            torepo={"https://github.com/AlvinZC4/Employee-Directory"}
+            textrepo={"Employee Directory Repo"}
+            content="The Employee Directory application makes an API call to get 50
+             random employees. The employees can be searched and sorted by first name
+             or last name. This is a front-end applcation that was created using React.js
+             and ultizies axios as well as current React syntax such as useState and useEffect"
           />
         </Col>
       </Row>
