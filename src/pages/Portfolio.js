@@ -67,7 +67,19 @@ function Portfolio(props) {
             user created burgers. The application was created with the MCV model and ultizes 
             Handlebars.js to render data returned from the database."
           />
-
+          <Project
+          head="Note Taker"
+          image={require("../assets/images/NoteTaker.png")}
+          alt="Note Taker"
+          toapp={"https://protected-lake-56546.herokuapp.com/"}
+          textapp={"Note Taker"}
+          torepo={"https://github.com/AlvinZC4/Note-Taker"}
+          textrepo={"Note Taker Repo"}
+          content="The Note Taker application allows the user to create, store, and delete notes
+           to help the user keep track of their tasks and thoughts. This application uses 
+           Express.js to create an API and handle the routing that allows the user to GET, 
+           POST, & DELETE their notes."
+          />
         </Col>
       </Row>
     </Container>
