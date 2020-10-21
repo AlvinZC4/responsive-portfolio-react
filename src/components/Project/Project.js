@@ -36,14 +36,7 @@ function Project(props) {
             </Row>
           </Col>
           <Col classes="col-lg-6 mt-2">
-            <p className="tab">
-              Procasti-Dater is an application that allows users to quickly set
-              up a date on the fly by searching a specified location for a
-              restaurants based on cusine and events (such as concerts or
-              shows). This app uses Integrated Google Geocode, Google Maps, Google Maps Places, &
-              Ticketmaster API’s and manipulated the DOM with JavaScript by
-              leveraging the DOM API.
-            </p>
+            <p className="tab">{props.content}</p>
           </Col>
         </Row>
       </Col>

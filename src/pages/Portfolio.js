@@ -20,6 +20,11 @@ function Portfolio(props) {
             textapp={"Procasti-Dater"}
             torepo={"https://github.com/AlvinZC4/Dinner-And-A-Movie"}
             textrepo={"Procasti-Dater Repo"}
+            content="Procasti-Dater is an application that allows users to quickly
+             set up a date on the fly by searching a specified location for a restaurants 
+             based on cusine and events (such as concerts or shows). This app uses 
+             Integrated Google Geocode, Google Maps, Google Maps Places, & Ticketmaster 
+             API’s and manipulated the DOM with JavaScript by leveraging the DOM API."
           />
         </Col>
       </Row>
