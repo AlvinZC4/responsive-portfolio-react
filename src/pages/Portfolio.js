@@ -39,6 +39,20 @@ function Portfolio(props) {
              or last name. This is a front-end applcation that was created using React.js
              and ultizies axios as well as current React syntax such as useState and useEffect"
           />
+          <Project
+          head="Work Day Planner"
+          image={require("../assets/images/DayPlanner.png")}
+          alt="Work Day Planner"
+          toapp={"https://alvinzc4.github.io/Work-Day-Scheduler/"}
+          textapp={"Work Day Planner"}
+          torepo={"https://github.com/AlvinZC4/Work-Day-Scheduler"}
+          textrepo={"Work Day Planner Repo"}
+          content="The Work Day Planner is a daily event calendar that breaks each day 
+           down by the hour for every hour of the typical work day (8am - 5pm) and allows 
+           the user to create and save events for each hour. The application displays the
+           current day and time and dynamically updates the display of the calendar based
+           on the current time. This application makes use of Moment.js and LocalStorage"
+          />
         </Col>
       </Row>
     </Container>
