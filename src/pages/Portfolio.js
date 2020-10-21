@@ -53,6 +53,21 @@ function Portfolio(props) {
            current day and time and dynamically updates the display of the calendar based
            on the current time. This application makes use of Moment.js and LocalStorage"
           />
+          <Project 
+          head="Eat-Da-Burger"
+          image={require("../assets/images/BurgerApp.png")}
+          alt="Eat-Da-Burger"
+          toapp={"https://shrouded-journey-36823.herokuapp.com/"}
+          textapp={"Eat-Da-Burger"}
+          torepo={"https://github.com/AlvinZC4/Eat-da-Burger"}
+          textrepo={"Eat-Da-Burger Repo"}
+          content="Eat-Da-Burger is an application that allows the user to create as 
+           many burgers as they like and then devour them. This application uses a MySQL
+           database along with three of the four CRUD operations to Get, Post, and Put the
+            user created burgers. The application was created with the MCV model and ultizes 
+            Handlebars.js to render data returned from the database."
+          />
+
         </Col>
       </Row>
     </Container>
