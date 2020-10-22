@@ -43,6 +43,11 @@ function AboutMe(props) {
                             <ExtLink to="https://github.com/AlvinZC4" text="My GitHub Profile"/>
                         </Col>
                     </Row>
+                    <Row>
+                        <Col classes="my-2 d-flex justify-content-center links">
+                            <ExtLink to="mailto:alvinzcoxiv@gmail.com" text="Send Me an E-Mail"/>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
         </Container>
