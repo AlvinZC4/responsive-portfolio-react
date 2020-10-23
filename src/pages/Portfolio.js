@@ -79,6 +79,21 @@ function Portfolio() {
            Express.js to create an API and handle the routing that allows the user to GET, 
            POST, & DELETE their notes."
           />
+          <Project
+          head="Budget Tracker"
+          image={require("../assets/images/Budget.png")}
+          alt="Budget Tracker"
+          toapp={"https://salty-garden-64216.herokuapp.com/"}
+          textapp={"Budget Tracker"}
+          torepo={"https://github.com/AlvinZC4/Budget-Tracker"}
+          textrepo={"Budget Tracker Repo"}
+          content="The Budget Tracker helps users keep track of their account by letting
+           them enter any deposits or expendatures into the application and shows their current
+            balance. This is a progressive web application; the user can download the app to their
+            local machince and if the user loses their internet connection the app will keep cache 
+             all changes to be made to the database until the internet connection is reestablished
+             and the database can be updated."
+          />
         </Col>
       </Row>
     </Container>
