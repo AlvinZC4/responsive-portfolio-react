@@ -19,7 +19,7 @@
 
   ## Installation
 
-  Navigate your browser to 
+  Navigate your browser to https://desolate-forest-83780.herokuapp.com/
 
   ## How to Use This Application
 
