@@ -23,7 +23,9 @@
 
   ## How to Use This Application
 
-  The About Me page contains a short summary about my professional experience as well as some extrnal links to my GitHib and LinkedIn Profiles as well as a link to my Resume and a link to send me an e-mail.
+  The About Me page contains a short summary about my professional experience as well as some extrnal links to my GitHib and LinkedIn Profiles as well as a link to my Resume and a link to send me an e-mail. This application is mobile responsive.
+
+  ![Alvin Responsive Portfolio](./src/assets/images/ResponsivePortfolio.png)
 
   ## Test Code
 
