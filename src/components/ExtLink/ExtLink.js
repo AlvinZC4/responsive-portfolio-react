@@ -4,7 +4,7 @@ import "./styles.css"
 function ExtLink(props) {
 
     return (
-        <a className="links" href={props.to}>{props.text}</a>
+        <a className="links" target="blank" href={props.to}>{props.text}</a>
     )
 }
 

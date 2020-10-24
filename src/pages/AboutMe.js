@@ -32,7 +32,7 @@ function AboutMe(props) {
                     <Header header="Additional Links"/>
                     <Row>
                         <Col classes="my-2 d-flex justify-content-center links">
-                            <Link className="links" to={require("../assets/images/AlvinResume.pdf")}>My Resume</Link>
+                            <Link className="links" target="blank" to={require("../assets/images/AlvinResume.pdf")}>My Resume</Link>
                         </Col>
                     </Row>
                     <Row>
