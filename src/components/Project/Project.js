@@ -7,36 +7,39 @@ import ExtLink from "../ExtLink/ExtLink";
 import "./styles.css"
 
 function Project(props) {
+  const {stuff} = props
+  console.log(props)
+
   return (
     <Row classes="justify-content-center my-3 project">
       <Col>
-        <PortHead head={props.head} />
+        <PortHead head={stuff.head} />
         <Row classes="mt-2">
           <Col classes="col-lg-6">
             <Row>
               <Col classes="d-flex mt-3 justify-content-center">
-                <ProImage image={props.image} alt={props.alt} />
+                <ProImage image={stuff.image} alt={stuff.alt} />
               </Col>
             </Row>
             <Row>
               <Col classes="d-flex justify-content-center">
                 <ExtLink
-                  to={props.toapp}
-                  text={props.textapp}
+                  to={stuff.toapp}
+                  text={stuff.textapp}
                 />
               </Col>
             </Row>
             <Row>
               <Col classes="d-flex justify-content-center">
                 <ExtLink
-                  to={props.torepo}
-                  text={props.textrepo}
+                  to={stuff.torepo}
+                  text={stuff.textrepo}
                 />
               </Col>
             </Row>
           </Col>
           <Col classes="col-lg-6 mt-2">
-            <p className="tab">{props.content}</p>
+            <p className="tab">{stuff.content}</p>
           </Col>
         </Row>
       </Col>

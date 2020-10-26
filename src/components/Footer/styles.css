@@ -1,7 +1,6 @@
 .footer{
     background-color:lightgoldenrodyellow;
-    color: firebrick
+    color: firebrick;
+    border-top-style: outset;
+    border-color: slategray;
 }
-/* .App-logo{
-    background-size: 25px 25px;
-} */

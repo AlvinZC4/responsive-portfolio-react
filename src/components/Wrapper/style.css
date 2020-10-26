@@ -1,10 +1,9 @@
 .contentMain {
-    background-color: white;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
-    border: medium;
-    border-color: black;
+    border-style: solid;
+    border-color: slategray;
 }
 .all, .barall {
     background-color: lightgoldenrodyellow;

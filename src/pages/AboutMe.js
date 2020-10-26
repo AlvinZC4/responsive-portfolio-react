@@ -16,17 +16,13 @@ function AboutMe(props) {
                     <Row>
                         <Col>
                             <ProfilePic />
-                            <p>My name is Alvin Cox and I from Prince George County, Virginia; which is located about twenty-five
-                            minutes south of Richmond, VA. I am enrolled in a six month Full Stack programming cohort. Programming
-                            languages that I have experience with include HTML, CSS, & Javscript. I also have experience with ES6, 
-                            React.js, MySQL Database, Mongo Database, Node.js, Express, and using AJAX and Axios to make API calls.</p>
+                            <p>My name is Alvin Cox and I from Prince George County, Virginia, which is located about twenty-five minutes south of Richmond, VA. I am enrolled in a six-month Full Stack programming cohort. Programming languages that I have experience with include HTML, CSS, & JavaScript. I also have experience with ES6, React.js, MySQL Database, Mongo Database, Node.js, Express, and using AJAX and Axios to make API calls.</p>
 
                             <p>Currently I work as a Validation Engineer for a contracting company where I validate the installation and
                             functionallity of automation systems that are used in the manufacturing of pharmaceutical drugs. This position
                             requires very detailed testing and documentation to ensure systems meet FDA regulations.</p>
 
-                            <p>I am a graduate of Randolph-Macon College where I majored in Physics and minored in Mathematics and
-                            Astrophysics. I also have an Associates Degree in Mechanical Engineering Technology.</p>
+                            <p>I am a graduate of Randolph-Macon College where I majored in Physics and minored in Mathematics and Astrophysics. I also have an Associate’s Degree in Mechanical Engineering Technology.</p>
                         </Col>
                     </Row>
                     <Header header="Additional Links"/>
