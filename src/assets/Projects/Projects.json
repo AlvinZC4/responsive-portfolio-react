@@ -1,5 +1,15 @@
 [
     {
+        "head": "HIGHbrow",
+        "image": "/assets/images/Highbrow.png",
+        "alt": "HIGHbrow",
+        "toapp":"https://obscure-wildwood-73089.herokuapp.com/",
+        "textapp": "HIGHbrow",
+        "torepo":"https://github.com/AlvinZC4/HIGHbrow",
+        "textrepo": "HIGHbrow Repo",
+        "content": "HIGHbrow is a book regsitry application that is used to help user's gift other users books that want to read. Users can search for books to add to thier own wish list or they search for other users by e-mail to see their wish lists. This application was created using React.js and utilizes mongoDB to interact with users' accounts."
+    },
+    {
         "head": "Procasti-Dater",
         "image": "/assets/images/DinnerDate.png",
         "alt": "Procrasti-Dater",
